@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image';
 import styles from './Projects.module.css'; 
@@ -49,7 +50,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className={styles.container}>
+    <div id= 'projects' className={styles.container}>
       <h1 className={styles.title}>My Projects</h1>
       <div className={styles.projectsGrid}>
         {projects.map((project) => (

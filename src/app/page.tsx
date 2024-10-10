@@ -1,4 +1,6 @@
+
 "use client";
+/* eslint-disable react/no-unescaped-entities */
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";

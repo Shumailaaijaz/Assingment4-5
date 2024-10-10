@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
@@ -8,9 +9,9 @@ const Contact =() => {
         <div id='Contact' className='pt-32 container'>
           <div className='grid md:grid-cols-2 gap-10'>
             <div className='space-y-8'>
-                <h2 className='text-5'> Get in touch</h2>
+                <h2 className='text-9 font-bold'> Get in touch</h2>
                 <p className='text-gray-600 text-[20px] pt-2' >
-                "Feel free to reach out if you'd like to discuss projects, opportunities, or just to chat about tech and development. I'm always open to connecting with like-minded individuals or anyone curious about my journey from homeopathy to IT. Looking forward to hearing from you!"
+                Feel free to reach out if you'd like to discuss projects, opportunities, or just to chat about tech and development. I'm always open to connecting with like-minded individuals or anyone curious about my journey from homeopathy to IT. Looking forward to hearing from you!
 
 .
                 </p>

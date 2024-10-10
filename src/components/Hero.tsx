@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Navbar from './Navbar'
 
@@ -7,6 +8,12 @@ const Hero = () => {
     <div id="hero" className='min-h-screen bg-no-repeat bg-[url(/profile.png)] bg-left lg:bg-[15%] bg-cover'
     style={{backgroundSize: "35%"}}>
         <Navbar/>
+        {/* Marquee container */}
+      <div className="marquee-container bg-black text-white py-2">
+        <div className="marquee">
+          <p>I want to become a Certified Cloud Native Applied Generative AI Engineer.</p>
+        </div>
+      </div>
 
         <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
           <div className='hidden lg:block'></div>
@@ -18,13 +25,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-    {/* Marquee container */}
-    <div className="marquee-container bg-black text-white py-2">
-        <div className="marquee">
-          <p>I want to become a Certified Cloud Native Applied Generative AI Engineer.</p>
-        </div>
-      </div>
-      
     </div>
   )
 }
