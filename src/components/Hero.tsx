@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
           <div className='hidden lg:block'></div>
-          <div className='text-[50px] sm:text-[70px] font-bold leading-tight flex justify-center items-center'>
+          <div className='text-[50px] sm:text-[40px] font-bold leading-tight flex justify-center items-center'>
             <div>
               <p data-aos="zoom-in-up">i'm</p>
               <p data-aos="zoom-in-up">Shumaila Aijaz</p>
